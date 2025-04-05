@@ -1,37 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Website UHMCC">
+    <meta name="keywords" content="">
+    <meta name="author" content="Philipp Hame">
+    <title>UHMC&C</title>
     <link rel="stylesheet" href="./styles/index.css">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Website UHMCC">
-        <meta name="keywords" content="">
-        <meta name="author" content="Philipp Hame">
-        <title>UHMC&C</title>
-
-    </head>
-    <main>
-        <header>
-            <div class="header-background">
-                <img>
-                <div class="header-title">
-                    <div class="header-title-main">UHMC&C</div>
-                    <div class="header-title-subscription">Uhlemann-Hame, Management, Consulting & Coaching</div>
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <script src="./js/sidebar.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-background">
+            <div class="header-title">
+                <div class="header-title-main">UHMC&C</div>
+                <div class="header-title-subscription">
+                    Uhlemann-Hame, Management, Consulting & Coaching
                 </div>
-                <div class="burger-menu"></div>
             </div>
-        </header>
-        <section class="sidebar">
-
-        </section>
-        <section>
-            <div class="topic">
-                <div class="topic-header">
-                    <button class="topic-button" id="interim-managment">Interim-Management</button>
-                </div>
-                <div class="topic-content"></div>
-            </div>
-        </section>
+            <button class="menu-button">
+                Menu ☰
+            </button>
+        </div>
+    </header>
+    <div class="sidebar-overlay"></div>
+    <section class="sidebar">
+        <div class="sidebar-header">
+            Menü
+        </div>
+        <button class="sidebar-button">Startseite</button>
         
-
-    </main>
+        <div class="offers">
+            <button class="sidebar-button">Interim-Management</button>
+            <button class="sidebar-button">Change-Management</button>
+            <button class="sidebar-button">Projekt-Management</button>
+            <button class="sidebar-button">Coaching & Beratung</button>
+            <button class="sidebar-button">Umsetzung</button>
+        </div>
+        <div class="references">
+            <button class="sidebar-button">Profil</button>
+            <button class="sidebar-button">Referenzen</button>
+            <button class="sidebar-button">Veröffentlichungen</button>
+        </div>
+    
+        <div class="about">
+            <button class="sidebar-button">Kontakt</button>
+            <button class="sidebar-button">Impressum</button>
+            <button class="sidebar-button">Datenschutz</button>
+        </div>
+    </section>
+    <section class="main-content">
+        <div class="topic">
+            <div class="topic-title">
+                <button class="topic-button">
+                    Interim-Management
+                </button>
+                <img src="./images/icons/Arrow-Icon.png">
+            </div>
+            <div class="topic-content">
+                Interim-Management ist eine zeitlich befristete Art des betriebswirtschaftlichen Managements
+            </div>
+        </div>
+    </section>
+</body>
 </html>
