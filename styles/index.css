@@ -7,6 +7,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: Arial, sans-serif;
+    background-color: #FCFBF4;
 }
 
 @font-face {
@@ -112,6 +113,10 @@ body {
 
 .topic-content{
     padding-left: 8px;
-    margin-top:20px;
+    margin-top: 20px;
     font-size: 25px;
+    max-width: 1250px;
+    word-wrap: break-word;
+    line-height: 1.6;
+    white-space: pre-line;
 }
