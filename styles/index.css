@@ -120,3 +120,25 @@ body {
     line-height: 1.6;
     white-space: pre-line;
 }
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.footer-button{
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    border: none;
+    width: fit-content;
+}
+
+.footer-button:hover{
+    text-decoration: underline;
+}
