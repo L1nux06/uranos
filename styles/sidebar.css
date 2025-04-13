@@ -29,6 +29,7 @@
     flex-direction: column;
     transition: left 0.3s ease-in-out;
     z-index: 1000;
+    background-image: url("../images/sidebar.png");
 }
 
 .sidebar.active {
@@ -54,6 +55,9 @@
     margin-bottom: 200px;
 }
 
+.about button{
+    color: white;
+}
 
 .sidebar-button {
     position: relative;
