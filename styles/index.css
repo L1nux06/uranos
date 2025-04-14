@@ -34,10 +34,8 @@ body {
 .header-background {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
     overflow: hidden;
     background-image: url('../images/Header.png');
     background-size: cover;
@@ -46,9 +44,11 @@ body {
 }
 
 .header-title {
+    position: absolute;
+    right: 2%;
+    top: 50x;
     color: white;
     padding: 20px;
-    margin-right: 10%;
 }
 
 .header-title-main {
@@ -68,7 +68,19 @@ body {
 .main-content{
     padding:15px;
 }
-
+.welcome{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px 20px 20px 2rem;
+}
+.welcome-header{
+    font-size: 40px;
+    font-weight: bold;
+}
+.welcome-text{
+    font-size: 26px;
+}
 .block-content{
     display: flex;
     align-items: flex-start;
