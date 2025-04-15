@@ -160,11 +160,28 @@ body {
     background-color: transparent;
     border: none;
     font-size: 25px;
-    color: lightblue;
+    color: #ffa07a;
 }
 .text-button:hover {
     text-decoration: underline;
     scale: 1.05;
+}
+
+.diagramm{
+    display: flex;
+    flex-direction: column;
+}
+
+.diagramm-header{
+    align-self: left;
+    font-size: 36px;
+    font-weight: bold;
+    padding-left: 2rem;
+
+}
+
+.diagramm img{
+    align-self: center;
 }
 .footer {
     margin-top: 50px;
