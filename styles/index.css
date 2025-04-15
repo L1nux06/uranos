@@ -71,15 +71,16 @@ body {
 .welcome{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    padding: 20px 20px 20px 2rem;
+    padding-left: 8px;
 }
 .welcome-header{
     font-size: 40px;
     font-weight: bold;
 }
 .welcome-text{
-    font-size: 26px;
+    font-size: 24px;
+    max-width: 85%;
+    word-wrap: break-word;
 }
 .block-content{
     display: flex;
@@ -88,8 +89,8 @@ body {
     padding: 2rem;
     flex-wrap: wrap;
 }
-.topics{
-    flex: 2 1 500px;
+.topics-part-one{
+    flex: 2 1 800px;
 }
 .side-image{
     flex: 1 1 300px;
@@ -97,59 +98,74 @@ body {
 }
 .side-image img{
     width: 100%;
+    max-width: 220rem;
+    height: auto;
+    object-fit: cover;
+}
+
+.topics-part-two{
+    flex: 1 1 800px;
+}
+
+.text-image{
+    flex: 2 1 300px
+}
+
+.text-image{
+    padding: 50px;
+    display: flex;
+    width: 100%;
     max-width: 800px;
     height: auto;
     object-fit: cover;
 }
 
-
+.topic{
+    margin-top: 45px;
+}
 .topic-title {
     width: fit-content;
     display: flex;
     align-items: center;
     margin-top: 35px;
-    transition: all 0.3s ease-in-out;
     border-radius: 8px;
     position: relative;
-}
-
-.topic-title img {
-    opacity: 0;
-    transform: translateX(-10px);
-    transition: opacity 0.4s ease-in, transform 0.4s ease-in;
-    height: 25px;
-    width: 25px;
-    margin-left: 8px;
-}
-
-.topic-title:hover {
-    text-decoration: underline;
-    transform: scale(1.05);
-}
-
-.topic-title:hover img {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-
-.topic-button{
     font-size: 36px;
     font-weight: bold;
-    border: none;
-    background-color: transparent;
+    padding-left: 8px;
 }
 
 .topic-content{
     padding-left: 8px;
-    margin-top: 20px;
-    font-size: 25px;
-    max-width: 1250px;
+    font-size: 24px;
+    max-width: 1200px;
     word-wrap: break-word;
     line-height: 1.6;
     white-space: pre-line;
 }
 
+.ending{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 8px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.text-button{
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: lightblue;
+}
+.text-button:hover {
+    text-decoration: underline;
+    scale: 1.05;
+}
 .footer {
     margin-top: 50px;
     margin-bottom: 30px;
